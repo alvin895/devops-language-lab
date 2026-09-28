@@ -1,0 +1,22 @@
+---
+# Application Configuration
+
+application:
+  name: devops-language-lab
+  version: "1.0.0"
+  environment: development
+
+server:
+  host: 0.0.0.0
+  port: 8080
+  debug: true
+
+database:
+  host: localhost
+  port: 5432
+  name: devops-lab
+
+features:
+  authentication: true
+  logging: true
+  monitoring: false

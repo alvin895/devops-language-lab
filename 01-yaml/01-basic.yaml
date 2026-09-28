@@ -1,0 +1,9 @@
+---
+# Basic application information
+name: devops-language-lab
+version: "1.0.0"
+environment: development
+
+# Server configuration
+port: 8080
+debug: true

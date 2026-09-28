@@ -1,0 +1,20 @@
+---
+# YAML Lists
+
+# List of application ports
+ports:
+  - 8080
+  - 8081
+  - 8082
+
+# List of supported environments
+environments:
+  - development
+  - staging
+  - production
+
+# List of application features
+features:
+  - authentication
+  - logging
+  - monitoring
