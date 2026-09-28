@@ -1,0 +1,10 @@
+---
+# YAML Data Types
+
+name: Ghaza
+age: 20
+height: 170.5
+active: true
+disabled: false
+description: "DevOps learner"
+empty_value: null
