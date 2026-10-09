@@ -1,0 +1,5 @@
+---
+# Flow Style: format ringkas
+
+server: {host: localhost, port: 8080}
+allowed_ports: [8080, 8443, 9000]

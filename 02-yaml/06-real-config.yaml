@@ -1,0 +1,28 @@
+---
+# Realistic Application Configuration
+
+application:
+  name: devops-language-lab
+  version: "1.0.0"
+  environment: development
+
+server:
+  host: "127.0.0.1"
+  port: 8080
+
+database:
+  host: localhost
+  port: 5432
+  name: devops_lab
+
+logging:
+  level: info
+  format: json
+
+features:
+  authentication: true
+  monitoring: false
+
+allowed_ports:
+  - 8080
+  - 8443

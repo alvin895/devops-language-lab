@@ -1,0 +1,14 @@
+---
+# YAML Multiline Strings
+
+# Literal block: mempertahankan pergantian baris
+description: |
+  This application runs in a development environment.
+  It provides an API for internal services.
+  Logs are collected for troubleshooting.
+
+# Folded block: baris teks digabung menjadi paragraf
+summary: >
+  This application runs in a development environment.
+  It provides an API for internal services.
+  Logs are collected for troubleshooting.
