@@ -1,0 +1,16 @@
+---
+# YAML Anchors and Aliases
+
+# Anchor (&) memberi nama pada data yang dapat digunakan kembali
+defaults: &app_defaults
+  restart: unless-stopped
+  environment: development
+
+# Alias (*) menggunakan kembali data dari anchor
+service_a:
+  <<: *app_defaults
+  port: 8080
+
+service_b:
+  <<: *app_defaults
+  port: 8081

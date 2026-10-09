@@ -1,0 +1,22 @@
+---
+# YAML Strings
+
+# Plain string: teks tanpa tanda kutip
+app_name: devops-language-lab
+
+# Double-quoted string
+message: "Hello, YAML!"
+
+# Single-quoted string
+description: 'Learning YAML for DevOps'
+
+# String yang berisi karakter khusus
+url: "https://example.com/app?name=devops&env=dev"
+
+# Teks yang formatnya menyerupai angka atau boolean
+version: "1.0"
+release_code: "007"
+enabled_text: "true"
+
+# Boolean sungguhan, untuk dibandingkan
+enabled: true

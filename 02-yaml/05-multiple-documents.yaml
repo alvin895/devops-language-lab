@@ -1,0 +1,12 @@
+---
+# Document 1: Development
+application:
+  name: devops-language-lab
+  environment: development
+  port: 8080
+---
+# Document 2: Production
+application:
+  name: devops-language-lab
+  environment: production
+  port: 443
